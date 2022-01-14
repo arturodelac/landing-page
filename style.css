@@ -6,7 +6,8 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color:rgb(241, 241, 241)
+
 }
 
 .Header {
@@ -21,6 +22,7 @@ a {
     display: flex;
     margin-left: auto;
     gap:16px;
+    color:rgb(196, 196, 196)
 }
 body { padding: 0px;
 margin: 0px
@@ -122,11 +124,19 @@ button {
     max-width: 256px;
     flex-direction: column;
     gap:16px;
+    align-items: center;
 }
 .text {
     color: rgb(102, 101, 101);
 }
 
 .image {
+    
+    height: 128px;
+     width: 128px;
     border-radius: 8px;
+    border-width: 4px;
+    border-color: rgb(43, 125, 202);
+    background-color: white;
+    border-style: solid;
 }
