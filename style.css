@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
+    
+
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -11,6 +13,7 @@ a {
 }
 
 .Header {
+    min-width: 640px;
     display: flex;
     align-items: center;
     padding-left: 256px;
@@ -47,6 +50,8 @@ h3 {
 }
 
 .main-body {
+    min-width: 640px;
+
     background-color: #1f2937;
     margin:0px;
     padding-left: 256px;
@@ -104,10 +109,14 @@ button {
 }
 
 .random-information {
+    min-width: 640px;
+    padding-left:256px;
+    padding-right: 256px;
+
     display: flex;
     text-align: center;
     align-content: center;
-    padding:32px;
+    padding-top:32px;
     flex-direction: column;
     margin-bottom: 64px;
 
@@ -115,6 +124,7 @@ button {
 }
 
 .container-random {
+    
     margin-top: 32px;
     justify-content: center;
     display: flex;
@@ -153,8 +163,8 @@ button {
     background-color: #e5e7eb;
     color: #64676d;
     padding:120px;
-    padding-left: 320px;
-    padding-right: 320px;
+    padding-left: 512px;
+    padding-right: 512px;
     font-size: 48px;
     font-weight: 200;
     flex-direction: column;
@@ -164,6 +174,7 @@ button {
 .quote {
     text-align: justify;
     font-style: italic;
+    min-width: 640px;
 
 }
 
@@ -181,10 +192,14 @@ p {
 }
 
 .sign-up {
+    min-width: 640px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 180px;
+    margin: 120px;
+    margin-left:320px;
+    margin-right:320px;
     padding:160px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -196,7 +211,8 @@ p {
 #signup-button {
     border-color: white;
     border-top-width: 2px;
-    border: 8px;
+    border-width: 2px;
+    border-style: solid;
 }
 .title-signup{
     color: white;
@@ -206,4 +222,12 @@ p {
 
 .text-signup {
     color:white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:rgb(196, 196, 196);
+    text-align: center;
+    padding-bottom: 32px;padding-top: 32px;
+
 }
