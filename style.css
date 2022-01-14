@@ -83,17 +83,22 @@ h3 {
     flex:1 1 auto;
     background-color: rgb(141, 141, 141);
 }
+.sign-upB{
+    border: 0px;
+}
 
 button {
     background-color: #3b82f6;
     color: white;
-    border: 0px;
+  
     padding-left: 32px;
     padding-right: 32px;
     padding-top:8px;
     padding-bottom:8px;
     font-weight: 700;
     font-size: 14px;
+    margin-top: 8px;
+    
 
     border-radius: 8px;
 }
@@ -115,13 +120,13 @@ button {
     display: flex;
     align-items: center;
     text-align: center;
-    gap:32px;
+    gap:64px;
     flex: 1;
 
 }
 .info {
     display: flex;
-    max-width: 256px;
+    max-width: 128px;
     flex-direction: column;
     gap:16px;
     align-items: center;
@@ -139,4 +144,66 @@ button {
     border-color: rgb(43, 125, 202);
     background-color: white;
     border-style: solid;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #64676d;
+    padding:120px;
+    padding-left: 320px;
+    padding-right: 320px;
+    font-size: 48px;
+    font-weight: 200;
+    flex-direction: column;
+
+}
+
+.quote {
+    text-align: justify;
+    font-style: italic;
+
+}
+
+.author{
+    font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+    text-align: right;
+    padding-top: 8px;
+}
+
+p {
+    margin: 0px;
+    padding:0px;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 180px;
+    padding:160px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    
+}
+
+#signup-button {
+    border-color: white;
+    border-top-width: 2px;
+    border: 8px;
+}
+.title-signup{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-signup {
+    color:white;
 }
