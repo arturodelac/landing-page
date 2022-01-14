@@ -39,6 +39,11 @@ h2 {
     margin: 0px;
     font-size: 42px;
     font-weight: 700;
+    padding-right: 64px;
+}
+.subtext{
+    padding-right: 64px;
+
 }
 
 h3 {
@@ -50,7 +55,7 @@ h3 {
 }
 
 .main-body {
-    min-width: 640px;
+    min-width: 800px;
 
     background-color: #1f2937;
     margin:0px;
@@ -60,8 +65,10 @@ h3 {
     display: flex;
     flex-direction: row;
     color: whitesmoke;
-    gap: 32px;
-    justify-content: space-between;
+    gap: 0px;
+    justify-content: center;
+    flex: 1 ;
+    align-items: center;
 
 }
 
@@ -76,17 +83,19 @@ h3 {
 }
 
 .picture {
-    margin-top:64px;
-    margin-bottom: 64px;
-    max-width: 512px;
-    max-height: 256px;
-    min-width: 256px;
-    min-height: 128px;
+    
+    width: 512px;
+    height: 256px;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex:1 1 auto;
+    flex:0 0 auto;
     background-color: rgb(141, 141, 141);
+    margin-left: 128px;
+
+   
+
 }
 .sign-upB{
     border: 0px;
