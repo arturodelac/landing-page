@@ -96,10 +96,13 @@ section {
 }
 
 button {
-    width: 128px;
-    background-color: lightblue;
+    width: 100px;
+    background-color: #3882F6;
     border-radius: 8px;
-    padding: 4px 8px;
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px;
     border-style: none;
 }
 
